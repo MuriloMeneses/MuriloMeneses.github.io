@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: 'viga';
+}
+nav {
+      position: fixed;
+      width: 100%;
+}
+h2 {
+    text-align: center;
+    padding: 50px;
+}
+nav ul {
+    background-color: blueviolet;
+    display: flex;
+    list-style: none;
+    height: 60px;
+   
+    font-size: 22px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+section#home {
+    background-image: url('https://admiring-curie-9af955.netlify.com/img/header-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    color: white;
+    padding-left: 50px;
+}
+
+section#sobre {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section#projetos .conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section#projetos .card{
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+section#projetos .card .card-header img {
+    width: 345px; 
+    border-radius: 10px 10px 0px 0px;
+}
+
+section#projetos .card .card-body{
+
+    padding: 10px;
+}
+
+section#projetos .card .card-body p{
+
+    margin-left: 5px;
+}
+
+section#projetos .card .card-body .tags ul{
+    display: flex;
+    padding: 5px;
+    list-style: none;
+}
+
+section#projetos .card .card-body .tags ul li{
+    padding: 5px;
+    margin-left: 3px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+
+section#contato{
+
+    text-align: center;
+    
+}
+
+section#contato form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+section#contato form input{
+
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+section#contato form textarea{
+
+    margin: 10px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+section#contato form button.btn-primary{
+    background-color: rgb(214, 214, 240);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
