@@ -135,3 +135,31 @@ section#contato form button.btn-primary{
     border-radius: 10px;
 
 }
+
+footer#rodape {
+
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+
+}
+
+footer#rodape .redes-sociais ul{
+    display: flex;
+    list-style: none;
+}
+
+footer#rodape .redes-sociais ul li{
+    margin-right: 15px;
+
+}
+
+footer#rodape .redes-sociais ul li a{
+    color: white;
+    text-decoration: none;
+}
