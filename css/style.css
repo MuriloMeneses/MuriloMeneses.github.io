@@ -19,7 +19,7 @@ h2 {
     padding: 50px;
 }
 nav ul {
-    background-color: blueviolet;
+    background-color: rgb(233, 240, 142);
     display: flex;
     list-style: none;
     height: 60px;
