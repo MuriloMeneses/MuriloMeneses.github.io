@@ -34,6 +34,7 @@ nav ul li {
     margin-right: 10px;
 }
 
+
 section#home {
     background-image: url('https://admiring-curie-9af955.netlify.com/img/header-background.jpg');
     background-size: cover;
@@ -49,16 +50,19 @@ section#home {
     padding-left: 50px;
 }
 
-section#sobre {
-    padding-left: 100px;
-    padding-right: 100px;
+main{
+    padding: 0px 100px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
 }
 
+
+
 section#projetos .conteudo {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    
 }
 
 section#projetos .card{
@@ -69,6 +73,8 @@ section#projetos .card{
 
 
 section#projetos .card .card-header img {
+    object-fit: cover;
+    height: 340px;
     width: 345px; 
     border-radius: 10px 10px 0px 0px;
 }
@@ -150,11 +156,13 @@ footer#rodape {
 }
 
 footer#rodape .redes-sociais ul{
+    flex-wrap: wrap;
     display: flex;
     list-style: none;
 }
 
 footer#rodape .redes-sociais ul li{
+    
     margin-right: 15px;
 
 }
@@ -162,4 +170,21 @@ footer#rodape .redes-sociais ul li{
 footer#rodape .redes-sociais ul li a{
     color: white;
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 728px) {
+    main {
+        padding: 0px 10px;
+    }
+
+    section#sobre {
+
+      text-align: justify;
+    }
+
+    section#contato form textarea{
+        width: 90%;
+    }
+    
 }
